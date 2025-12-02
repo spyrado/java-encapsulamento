@@ -18,6 +18,8 @@ public class Main {
       funcionario1.reajustarSalario(10);
       funcionario2.exibirInformacoes();
       funcionario2.reajustarSalario(5);
+      funcionario2.salario = 3000;
+      funcionario2.exibirInformacoes();
 
   }
 }
