@@ -25,4 +25,12 @@ public class Funcionario {
   public void setCargo(String cargo) {
     this.cargo = cargo;
   }
+
+  public String getNome() {
+    return nome;
+  }
+
+  public double getSalario() {
+    return salario;
+  }
 }
